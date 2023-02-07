@@ -1,0 +1,529 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* End of html5doctor.com Reset Stylesheet */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #1f2833;
+    width: 100%;
+    height: 100%;
+}
+
+#particles-js {
+    display: none;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #0b0c10;
+    height: 5rem;
+    width: 100%;
+}
+
+.header-title {
+    font-weight: 100;
+    color: #c5c6c7;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 4.6rem;
+}
+
+.banner {
+    background: #1f2833;
+    height: calc(100vh);/*- 5rem*/
+    width: 100%;   
+    display: block;
+}
+
+.banner-title {
+    font-weight: 100;
+    color: #c5c6c7;
+    font-size: 20vw;
+    display: block;
+    line-height: 25vw;
+
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    
+    text-shadow: 0 0 10px #000;
+}
+
+.banner-text {
+    color: #c5c6c7;
+    text-shadow: 0 0 10px #000;
+    font-size: 10vw;
+    font-weight: 300;
+
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 750px) { 
+    .banner-title {
+        font-size: 12vw;
+        line-height: 14vw;
+    }
+
+    .banner-text {
+        font-size: 7vw;
+    }
+}
+
+.about {
+    background: #45a29e;
+    width: 100%;
+    display: inline-block;
+    top: 5rem;
+    left: 0;    
+
+}
+
+.about-title {
+    font-weight: 600;
+    color: #1f2833;
+    font-size: 4rem;
+    display: block;
+    text-align: left;
+    line-height: 4.6rem;
+    padding:5rem 0 0 0;
+}
+
+.about-text {
+    font-weight: 400;
+    color: #1f2833;
+    font-size: 1.6rem;
+    display: block;
+    text-align: left;
+    line-height: 1.9rem;
+    margin:1rem 0 5rem 0;
+}
+
+.projects {
+    background: #1f2833;
+    width: 100%;
+    display: inline-block;
+    top: 5rem;
+    left: 0;  
+}
+
+.project-title {
+    font-weight: 600;
+    color: #45a29e;
+    font-size: 4rem;
+    display: block;
+    text-align: left;
+    line-height: 4.6rem;
+    padding:5rem 0 0 0;
+}
+
+.project-sample {
+    display: inline-block;
+    float: left;
+
+    color: #c5c6c7;
+    
+    line-height: 38px;
+
+    margin-top: 3rem;
+
+    font-size: 24px;
+    border: 0.2rem solid #c5c6c7;
+    border-radius: 1rem;
+}
+
+.project-sample h2 {
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 3vw 0 0 0;
+    text-align: center;
+
+    text-transform: capitalize;
+}
+
+.project-sample p {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 3vw 0 0 0;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    text-transform: capitalize;
+}
+
+.project-img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+
+    border-radius: 1rem;
+    outline: auto;
+
+    margin-top: 1rem;
+}
+
+.skills {
+    background: #45a29e;
+    width: 100%;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.skills h2 {
+    font-weight: 600;
+    color: #1f2833;
+    font-size: 4rem;
+    display: block;
+    text-align: left;
+    line-height: 4.6rem;
+    padding:5rem 0 0 0;
+}
+
+.skills-submenu {
+    width: 100%;
+
+}
+
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #1f2833;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.li-label {
+    font-weight: 300;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+@media only screen and (min-width: 750px) { 
+    .skills-list-1 {
+        float: left;
+    }
+    
+    .skills-list-2 {
+        float: right;
+    }
+
+}
+
+.footer {
+    background: #313436;
+    width: 100%;
+    display: inline-block;
+    color: #c5c6c7;
+}
+.footer a {
+    color: #c5c6c7;
+}
+
+.footer-contact-title {
+    font-weight: 600;
+    color: #c5c6c7;
+    font-size: 2rem;
+    display: block;
+    text-align: left;
+    padding:2rem 0 0 0;
+}
+
+.footer-contact-text {
+    font-weight: 400;
+    color: #c5c6c7;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    display: block;
+    padding-top: 0.9rem;
+    margin-bottom: 2rem;
+
+}
+
+.resize {
+    width: 2rem;
+    height: auto;
+}
+.footer img {
+    padding: 0 0 2rem 0;
+    display: block;
+}
+
+#linkedin-icon {
+    float: left;
+}
+
+#github-icon {
+    float: right;
+}
+
+
+/* desktop */
+
+@media only screen and (min-width: 1000px) { 
+
+
+    .wrapper {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    
+    .banner {
+        background: #1f2833;
+        height: calc(100vh);/*- 5rem*/
+        width: 100%;   
+        display: block;
+    }
+    
+    .banner-title {
+
+        font-size: 7vw!important;
+        display: block;
+        line-height: 11vw!important;
+    
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+        
+        text-shadow: 0 0 10px #000;
+    }
+    
+    .banner-text {
+
+        text-shadow: 0 0 10px #000;
+        font-size: 3vw!important;
+        font-weight: 300;
+    
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .project-boxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 3vw;
+
+    }
+
+    .project-boxes div {
+        display: inline-block;
+    
+        color: #c5c6c7;
+
+    }
+
+    
+    .project-sample h2 {
+    
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 3vw 0 0 0;
+        text-align: center;
+    
+        text-transform: capitalize;
+    }
+    
+    .skills {
+        background: #45a29e;
+        width: 100%;
+        display: inline-block;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .skills h2 {
+        font-weight: 600;
+        color: #1f2833;
+        font-size: 4rem;
+        display: block;
+        text-align: left;
+        line-height: 4.6rem;
+        padding:5rem 0 0 0;
+    }
+    
+    .skills-submenu {
+        width: 100%;
+    }
+    
+    
+    .skills ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 2rem;
+        color: #1f2833;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        
+        display:grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .skills ul li {
+        text-align: left;
+        padding: 1rem;
+    }
+    
+    .resize {
+        width: 3rem;
+        height: auto;
+    }
+    .footer img {
+        padding: 1rem;
+        display: block;
+    }
+
+    .footer-contact-text {
+        float: left;
+    }
+    
+    #linkedin-icon {
+        float: right
+    }
+    
+    #github-icon {
+        float: right;
+    }
+
+    #particles-js {
+        display: block;
+        height: 100vh;
+    }
+
+}
